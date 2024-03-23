@@ -82,5 +82,6 @@ This project is a simple API that allows users to create entries, retrieve pagin
 ## Notes
 
 - Function-based views are preferred over class-based views for simplicity.
+- In Get Users Data end point, there is  no total count of messages in the example response but it was added to the response as this requirement is declared on the project description.
 
 That's it! You're ready to use the API. If you encounter any issues, refer to the documentation or contact the project maintainers.
