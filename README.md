@@ -66,6 +66,16 @@ This project is a simple API that allows users to create entries, retrieve pagin
 - **URL**: `/create-entry/`
 - **Method**: POST
 - **Description**: Creates a new entry based on the submitted form data.
+- **Example Request**:
+    ```
+    POST /api/create-entry/
+    {
+        "name": "Caner Karagüler",
+        "subject": "Demo",
+        "message": "Demo Message"
+    }
+    ```
+
 
 ### Get Entries
 
